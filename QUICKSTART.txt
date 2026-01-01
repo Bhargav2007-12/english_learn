@@ -1,0 +1,70 @@
+═══════════════════════════════════════════════════════════════
+  TELUGU SPEECH CORRECTION APP - QUICK START
+═══════════════════════════════════════════════════════════════
+
+📋 REQUIREMENTS:
+  ✓ Python 3.8+
+  ✓ Node.js 16+
+  ✓ OpenAI API Key (with Realtime API access)
+
+═══════════════════════════════════════════════════════════════
+
+🚀 SETUP (First Time Only):
+
+1️⃣  BACKEND SETUP:
+   cd backend
+   pip install -r requirements.txt
+   
+   Create a file named ".env" with:
+   OPENAI_API_KEY=sk-your-actual-api-key-here
+
+2️⃣  FRONTEND SETUP:
+   cd frontend
+   npm install
+
+═══════════════════════════════════════════════════════════════
+
+▶️  RUNNING THE APP:
+
+Terminal 1 (Backend):
+   cd backend
+   python main.py
+   
+   ✅ Wait for: "Uvicorn running on http://0.0.0.0:8000"
+
+Terminal 2 (Frontend):
+   cd frontend
+   npm run dev
+   
+   ✅ Wait for: "Local: http://localhost:3000"
+
+═══════════════════════════════════════════════════════════════
+
+🌐 USING THE APP:
+
+1. Open browser → http://localhost:3000
+2. Click "Connect to Server"
+3. Click "Start Recording"
+4. Allow microphone access
+5. Speak in Telugu! 🎤
+6. AI responds in English ✨
+7. See transcription history 📝
+8. Hear audio through speakers 🔊
+9. Click "Clear Audio" to reset buffer 🗑️
+
+═══════════════════════════════════════════════════════════════
+
+🎯 THE PROMPT:
+   "The user will be speaking in Telugu and you have to 
+    correct the user and reply in English"
+
+═══════════════════════════════════════════════════════════════
+
+❓ PROBLEMS?
+   See SETUP.md for detailed troubleshooting
+
+📚 MORE INFO?
+   See README.md for full documentation
+
+═══════════════════════════════════════════════════════════════
+

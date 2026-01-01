@@ -1,0 +1,53 @@
+═══════════════════════════════════════════════════════════════
+  BACKEND ENVIRONMENT CONFIGURATION
+═══════════════════════════════════════════════════════════════
+
+IMPORTANT: You need to create a .env file in this backend folder.
+
+═══════════════════════════════════════════════════════════════
+
+📝 STEPS:
+
+1. Create a new file named:  .env
+
+2. Add this single line to the file:
+
+   OPENAI_API_KEY=sk-your-actual-api-key-here
+
+3. Replace "sk-your-actual-api-key-here" with your real OpenAI API key
+
+═══════════════════════════════════════════════════════════════
+
+🔑 GET YOUR API KEY:
+
+1. Go to: https://platform.openai.com/api-keys
+2. Sign in to your OpenAI account
+3. Click "Create new secret key"
+4. Copy the key (starts with "sk-")
+5. Paste it in your .env file
+
+═══════════════════════════════════════════════════════════════
+
+✅ EXAMPLE .env FILE:
+
+OPENAI_API_KEY=sk-proj-AbCd1234EfGh5678IjKl9012MnOp3456QrSt7890
+
+═══════════════════════════════════════════════════════════════
+
+⚠️  SECURITY WARNING:
+
+- NEVER commit your .env file to git
+- NEVER share your API key publicly
+- Keep your .env file in the backend folder only
+
+═══════════════════════════════════════════════════════════════
+
+💡 NOTES:
+
+- The .env file has no file extension (just ".env")
+- On Windows, you might need to save as "all files" type
+- Make sure there are no spaces before or after the =
+- The Realtime API may require a paid OpenAI account
+
+═══════════════════════════════════════════════════════════════
+
