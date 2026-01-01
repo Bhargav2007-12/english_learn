@@ -28,9 +28,7 @@ IMPORTANT: You need to create a .env file in this backend folder.
 
 ═══════════════════════════════════════════════════════════════
 
-✅ EXAMPLE .env FILE:
-
-OPENAI_API_KEY=sk-proj-AbCd1234EfGh5678IjKl9012MnOp3456QrSt7890
+✅ EXAMPLE .env FI
 
 ═══════════════════════════════════════════════════════════════
 
